@@ -1,0 +1,22 @@
+cat > .gitignore << EOF
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Mac OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+
